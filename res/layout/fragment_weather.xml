@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fragment map:name="com.google.android.gms.maps.SupportMapFragment" map:id="@id/map" map:layout_width="-1" map:layout_height="-1" />

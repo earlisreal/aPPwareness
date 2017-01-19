@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout fab:fitsSystemWindows="true" fab:layout_width="-1" fab:layout_height="-1" fab:layout_collapseParallaxMultiplier="0.0">
+    <LinearLayout fab:orientation="1" fab:layout_width="-1" fab:layout_height="-1">
+        <android.support.design.widget.AppBarLayout fab:theme="@style/AppTheme_AppBarOverlay" fab:layout_width="-1" fab:layout_height="-2">
+            <android.support.v7.widget.Toolbar fab:id="@id/toolbar" fab:background="?unknown_attr_ref: 7f01009a" fab:layout_width="-1" fab:layout_height="?unknown_attr_ref: 7f01005d" fab:popupTheme="@style/AppTheme_PopupOverlay" />
+        </android.support.design.widget.AppBarLayout>
+        <com.sothree.slidinguppanel.SlidingUpPanelLayout fab:gravity="50" fab:id="@id/sliding_layout1" fab:layout_width="-1" fab:layout_height="-1" fab:umanoPanelHeight="68dp" fab:umanoShadowHeight="4dp" fab:umanoParallaxOffset="100dp" fab:umanoDragView="@id/dragView1" fab:umanoScrollableView="@id/list1" fab:umanoOverlay="true">
+            <FrameLayout fab:orientation="1" fab:id="@id/frmlayout" fab:layout_width="-1" fab:layout_height="-1">
+                <fragment map:name="com.google.android.gms.maps.SupportMapFragment" map:id="@id/map" map:layout_width="-1" map:layout_height="-1" />
+            </FrameLayout>
+            <LinearLayout android:orientation="1" android:id="@id/dragView1" android:background="#ffffff" android:focusable="false" android:clickable="true" android:layout_width="-1" android:layout_height="-1"
+                <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="68dp">
+                    <TextView android:textSize="14sp" android:gravity="10" android:id="@id/name1" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0" />
+                    <Button android:textSize="14sp" android:gravity="15" android:id="@id/follow1" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-2" android:layout_height="-1" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.sothree.slidinguppanel.SlidingUpPanelLayout>
+    </LinearLayout>
+    <com.github.clans.fab.FloatingActionMenu android:id="@id/fab" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:menu_showShadow="true" android:menu_labels_showAnimation="@anim/fab_slide_in_from_right" android:menu_labels_hideAnimation="@anim/fab_slide_out_to_right" android:menu_labels_paddingTop="4dp" android:menu_labels_paddingLeft="8dp" android:menu_labels_paddingRight="8dp" android:menu_labels_paddingBottom="4dp" android:menu_labels_padding="8dp" android:menu_labels_textColor="#000000" android:menu_labels_textSize="14sp" android:menu_labels_cornerRadius="3dp" android:menu_labels_showShadow="true" android:menu_labels_colorNormal="#ffffff" android:menu_labels_colorPressed="#444444" android:menu_labels_colorRipple="#66ffffff" android:menu_labels_position="0" android:menu_icon="@drawable/ic_flood_icon_menu" android:menu_animationDelayPerItem="50" android:menu_labels_singleLine="false" android:menu_labels_ellipsize="0" android:menu_labels_maxLines="-1" android:menu_fab_size="0" android:menu_shadowColor="#66000000" android:menu_shadowRadius="4dp" android:menu_shadowXOffset="1dp" android:menu_shadowYOffset="3dp" android:menu_colorNormal="#00bfff" android:menu_colorPressed="#ffffff" android:menu_colorRipple="#99ffffff" android:menu_openDirection="0" android:menu_backgroundColor="0x106000d" android:menu_fab_label="Report Flood">
+        <com.github.clans.fab.FloatingActionButton android:id="@id/flood1" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ic_ww3" android:fab_colorNormal="#ffffff" android:fab_size="0" android:fab_label="Critical" />
+        <com.github.clans.fab.FloatingActionButton android:id="@id/flood2" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ic_ww2" android:fab_colorNormal="#ffffff" android:fab_size="0" android:fab_label="Not Passable" />
+        <com.github.clans.fab.FloatingActionButton android:id="@id/flood3" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ic_ww1" android:fab_colorNormal="#ffffff" android:fab_size="0" android:fab_label="Passable" />
+    </com.github.clans.fab.FloatingActionMenu>
+    <ListView android:id="@id/list" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0" />
+</android.support.design.widget.CoordinatorLayout>

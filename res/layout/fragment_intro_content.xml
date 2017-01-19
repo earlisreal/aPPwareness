@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <TextView android:textSize="28sp" android:textStyle="1" android:textColor="0x106000b" android:gravity="11" android:layout_gravity="11" android:id="@id/title" android:paddingLeft="32dp" android:paddingRight="32dp" android:layout_width="-2" android:layout_height="0dp" android:layout_weight="3.0" />
+    <LinearLayout android:gravity="11" android:orientation="1" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="5.0">
+        <ImageView android:layout_gravity="11" android:id="@id/image" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="-2" android:layout_height="-2" />
+    </LinearLayout>
+    <LinearLayout android:gravity="1" android:orientation="0" android:layout_width="-1" android:layout_height="0dp" android:weightSum="1.0" android:layout_weight="3.0">
+        <TextView android:textSize="16sp" android:textColor="0x106000b" android:gravity="11" android:layout_gravity="11" android:id="@id/description" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="0.9" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout fab:fitsSystemWindows="true" fab:layout_width="-1" fab:layout_height="-1" fab:layout_collapseParallaxMultiplier="0.0">
+    <LinearLayout fab:orientation="1" fab:layout_width="-1" fab:layout_height="-1" fab:weightSum="1.0">
+        <android.support.design.widget.AppBarLayout fab:theme="@style/AppTheme_AppBarOverlay" fab:layout_width="-1" fab:layout_height="-2">
+            <android.support.v7.widget.Toolbar fab:id="@id/toolbartyp" fab:background="?unknown_attr_ref: 7f01009a" fab:layout_width="-1" fab:layout_height="?unknown_attr_ref: 7f01005d" fab:popupTheme="@style/AppTheme_PopupOverlay" />
+        </android.support.design.widget.AppBarLayout>
+        <Button fab:textSize="24sp" fab:textStyle="1" fab:id="@id/btnTyphoon" fab:background="@color/cast_expanded_controller_progress_text_color" fab:layout_width="-1" fab:layout_height="-2" fab:text="Prepare lifeline kit" fab:layout_weight="0.05" />
+        <RelativeLayout fab:id="@id/activity_main" fab:paddingLeft="@dimen/activity_horizontal_margin" fab:paddingTop="@dimen/activity_vertical_margin" fab:paddingRight="@dimen/activity_horizontal_margin" fab:paddingBottom="@dimen/activity_vertical_margin" fab:layout_width="-1" fab:layout_height="-1">
+            <ScrollView fab:layout_width="-1" fab:layout_height="-1" fab:layout_alignParentLeft="true" fab:layout_alignParentTop="true" fab:layout_alignParentStart="true">
+                <LinearLayout fab:orientation="1" fab:layout_width="-1" fab:layout_height="-2">
+                    <TextView fab:textSize="24sp" fab:textStyle="1" fab:id="@id/title" fab:layout_width="-1" fab:layout_height="-2" fab:text="Title" fab:textAlignment="4" />
+                    <TextView fab:textSize="14sp" fab:id="@id/description" fab:layout_width="-1" fab:layout_height="-2" fab:text="Description" />
+                    <TextView fab:textSize="16sp" fab:textStyle="1" fab:textColor="@color/colorPrimary" fab:id="@id/textView7" fab:layout_width="-1" fab:layout_height="-2" fab:text="Before" />
+                    <TextView fab:id="@id/before" fab:layout_width="-1" fab:layout_height="-2" fab:text="Before" />
+                    <TextView fab:textSize="16sp" fab:textStyle="1" fab:textColor="@color/colorPrimary" fab:id="@id/textView8" fab:layout_width="-1" fab:layout_height="-2" fab:text="During" />
+                    <TextView fab:id="@id/during" fab:layout_width="-1" fab:layout_height="-2" fab:text="During" />
+                    <TextView fab:textSize="16sp" fab:textStyle="1" fab:textColor="@color/colorPrimary" fab:id="@id/textView9" fab:layout_width="-1" fab:layout_height="-2" fab:text="After" />
+                    <TextView fab:id="@id/after" fab:layout_width="-1" fab:layout_height="-2" fab:text="After" />
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

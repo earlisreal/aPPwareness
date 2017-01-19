@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:background="0x1060012" app:layout_width="-1" app:layout_height="-1">
+    <ImageView app:id="@id/imageView" app:layout_width="-2" app:layout_height="-2" app:layout_centerHorizontal="true" app:layout_centerVertical="true" app:srcCompat="@drawable/home" />
+    <EditText app:textSize="24sp" app:typeface="0" app:textColor="0x106000b" app:textColorHint="@color/colorAccent" app:gravity="11" app:id="@id/editText" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="17dp" app:hint="Home (City)" app:ems="10" app:layout_below="@id/imageView" app:layout_centerHorizontal="true" app:inputType="61" style="@*style/Widget.DeviceDefault.EditText" />
+    <TextView app:textSize="25sp" app:textColor="0x106000f" app:id="@id/textView" app:layout_width="-2" app:layout_height="-2" app:layout_marginBottom="45dp" app:text="Setup your Home Location" app:layout_above="@id/imageView" app:layout_alignLeft="@id/editText" />
+</RelativeLayout>

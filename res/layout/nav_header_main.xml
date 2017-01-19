@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:theme="@style/ThemeOverlay_AppCompat_Dark" app:gravity="50" app:orientation="1" app:background="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color" app:paddingLeft="@dimen/activity_horizontal_margin" app:paddingTop="@dimen/activity_vertical_margin" app:paddingRight="@dimen/activity_horizontal_margin" app:paddingBottom="@dimen/activity_vertical_margin" app:layout_width="-1" app:layout_height="-2" app:weightSum="1.0">
+    <ImageView app:id="@id/imageView" app:paddingTop="@dimen/nav_header_vertical_spacing" app:layout_width="-1" app:layout_height="-2" app:srcCompat="@drawable/cur_02d" />
+    <TextView app:textAppearance="@style/TextAppearance_AppCompat_Body1" app:paddingTop="@dimen/nav_header_vertical_spacing" app:layout_width="-1" app:layout_height="-2" app:text="Current Weather" />
+    <TextView app:id="@id/textView" app:layout_width="-1" app:layout_height="-2" app:text="Broken Clouds 24 ℃" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item sothree:id="@id/action_toggle" sothree:orderInCategory="100" sothree:title="@string/action_hide" sothree:showAsAction="0" />
+    <item sothree:id="@id/action_anchor" sothree:orderInCategory="200" sothree:title="@string/action_anchor_enable" sothree:showAsAction="0" />
+</menu>

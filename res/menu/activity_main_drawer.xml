@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <group android:checkableBehavior="2">
+        <item android:id="@id/nav_Typhoon" android:title="Typhoon" />
+        <item android:id="@id/nav_fire" android:title="Fire" />
+        <item android:id="@id/nav_landslides" android:title="Landslides" />
+        <item android:id="@id/nav_stormsurge" android:title="Storm Surge" />
+        <item android:id="@id/nav_earthquake" android:title="Earth Quake" />
+        <item android:id="@id/nav_Volcanoes" android:title="Volcanoes" />
+    </group>
+    <item android:title="">
+        <menu>
+            <item android:id="@id/nav_share" android:title="Toolkit" />
+            <item android:id="@id/nav_send" android:title="Test" />
+            <item android:id="@id/Alert" android:title="Alert Settings" />
+            <item android:id="@id/settings" android:title="Setting" />
+        </menu> />
+</menu>

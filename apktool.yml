@@ -1,0 +1,27 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: aPPwareness.apk
+compressionType: false
+doNotCompress:
+- arsc
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '16'
+  targetSdkVersion: '24'
+sharedLibrary: false
+unknownFiles:
+  RetrieveAndRankMessages.properties: '8'
+  alchemy_endpoints.json: '8'
+  build-data.properties: '8'
+  version.properties: '8'
+  jsr305_annotations/Jsr305_annotations.gwt.xml: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.1
+versionInfo:
+  versionCode: '1'
+  versionName: '1.0'

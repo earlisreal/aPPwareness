@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:background="#222222" app:layout_width="-1" app:layout_height="-2">
+    <com.github.paolorotolo.appintro.AppIntroViewPager app:id="@id/view_pager" app:layout_width="-1" app:layout_height="-2" />
+    <LinearLayout app:gravity="50" app:orientation="1" app:id="@id/bottom" app:background="0x106000d" app:layout_width="-1" app:layout_height="@dimen/appIntroBottomBarHeight" app:layout_alignParentBottom="true">
+        <TextView app:id="@id/bottom_separator" app:background="#55000000" app:layout_width="-1" app:layout_height="1px" />
+        <FrameLayout app:layout_width="-1" app:layout_height="-1"
+            <FrameLayout app:layout_gravity="11" app:id="@id/indicator_container" app:layout_width="-2" app:layout_height="-1" />
+            <Button app:textColor="0x106000b" app:layout_gravity="800003" app:id="@id/skip" app:layout_width="-2" app:layout_height="-1" app:layout_marginLeft="8dp" app:minWidth="100dp" app:text="@string/skip_button" style="@style/AppIntroButtonStyleCompat" />
+            <ImageButton app:layout_gravity="800003" app:id="@id/back" app:visibility="1" app:layout_width="-2" app:layout_height="-1" app:layout_marginLeft="8dp" app:minWidth="100dp" app:srcCompat="@drawable/ic_navigate_before_white" style="@style/AppIntroButtonStyleCompat" />
+            <ImageButton app:layout_gravity="800005" app:id="@id/next" app:layout_width="-2" app:layout_height="-1" app:layout_marginRight="8dp" app:minWidth="100dp" app:srcCompat="@drawable/ic_navigate_next_white" style="@style/AppIntroButtonStyleCompat" />
+            <Button app:textColor="0x106000b" app:layout_gravity="800005" app:id="@id/done" app:paddingRight="16dp" app:visibility="2" app:layout_width="-2" app:layout_height="-1" app:layout_marginRight="8dp" app:minWidth="100dp" app:text="@string/done_button" style="@style/AppIntroButtonStyleCompat" />
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

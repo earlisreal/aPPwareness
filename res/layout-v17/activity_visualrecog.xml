@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:id="@id/activity_typhoon" app:paddingLeft="@dimen/activity_horizontal_margin" app:paddingTop="@dimen/activity_vertical_margin" app:paddingRight="@dimen/activity_horizontal_margin" app:paddingBottom="@dimen/activity_vertical_margin" app:layout_width="-1" app:layout_height="-1">
+    <LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-1">
+        <TextView app:textSize="30sp" app:textStyle="1" app:id="@id/textView3" app:layout_width="-1" app:layout_height="-2" app:text="Prepare your Kit!" app:textAllCaps="true" app:fontFamily="sans-serif" app:textAlignment="4" />
+        <LinearLayout app:orientation="0" app:layout_width="-1" app:layout_height="55dp">
+            <TextView app:textSize="30sp" app:layout_width="-2" app:layout_height="-2" app:text="Flashlight" app:layout_weight="2.85" app:textAlignment="4" />
+            <Button app:id="@id/flashlightbutton" app:layout_width="-2" app:layout_height="-2" app:text="Classify" app:layout_weight="0.56" />
+            <CheckBox app:id="@id/flashcheck" app:layout_width="-2" app:layout_height="-2" app:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout app:orientation="0" app:layout_width="-1" app:layout_height="55dp">
+            <TextView app:textSize="30sp" app:layout_width="-2" app:layout_height="-2" app:text="Canned Goods" app:textAlignment="4" />
+            <Button app:id="@id/cannedgoods" app:layout_width="-2" app:layout_height="-2" app:text="Classify" app:layout_weight="0.56" />
+            <CheckBox app:id="@id/cannedgoodscheck" app:layout_width="-2" app:layout_height="-2" app:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout app:orientation="0" app:layout_width="-1" app:layout_height="55dp">
+            <TextView app:textSize="30sp" app:layout_width="-2" app:layout_height="-2" app:text="Bottled Water" app:layout_weight="0.61" app:textAlignment="4" />
+            <Button app:id="@id/bottledwater" app:layout_width="-2" app:layout_height="-2" app:text="Classify" app:layout_weight="0.56" />
+            <CheckBox app:id="@id/bottledwatercheck" app:layout_width="-2" app:layout_height="-2" app:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout app:orientation="0" app:layout_width="-1" app:layout_height="55dp">
+            <TextView app:textSize="30sp" app:layout_width="-2" app:layout_height="-2" app:text="Alcohol" app:layout_weight="3.39" app:textAlignment="4" />
+            <Button app:id="@id/alcohol" app:layout_width="-2" app:layout_height="-2" app:text="Classify" app:layout_weight="0.56" />
+            <CheckBox app:id="@id/alcoholcheck" app:layout_width="-2" app:layout_height="-2" app:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout app:orientation="0" app:layout_width="-1" app:layout_height="55dp">
+            <TextView app:textSize="30sp" app:layout_width="-2" app:layout_height="-2" app:text="Bandages" app:layout_weight="2.75" app:textAlignment="4" />
+            <Button app:layout_width="-2" app:layout_height="-2" app:text="Classify" app:layout_weight="0.56" />
+            <CheckBox app:layout_width="-2" app:layout_height="-2" app:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout app:orientation="0" app:layout_width="-1" app:layout_height="55dp">
+            <TextView app:textSize="30sp" app:layout_width="-2" app:layout_height="-2" app:text="Radio" app:layout_weight="5.51" app:textAlignment="4" />
+            <Button app:layout_width="-2" app:layout_height="-2" app:text="Classify" app:layout_weight="0.56" />
+            <CheckBox app:layout_width="-2" app:layout_height="-2" app:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout app:orientation="0" app:layout_width="-1" app:layout_height="55dp">
+            <TextView app:textSize="30sp" app:layout_width="-2" app:layout_height="-2" app:text="Gas Mask" app:layout_weight="3.03" app:textAlignment="4" />
+            <Button app:layout_width="-2" app:layout_height="-2" app:text="Classify" app:layout_weight="0.56" />
+            <CheckBox app:layout_width="-2" app:layout_height="-2" app:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout app:orientation="0" app:layout_width="-1" app:layout_height="55dp">
+            <TextView app:textSize="30sp" app:layout_width="-2" app:layout_height="-2" app:text="Power Bank" app:layout_weight="1.91" app:textAlignment="4" />
+            <Button app:layout_width="-2" app:layout_height="-2" app:text="Classify" app:layout_weight="0.56" />
+            <CheckBox app:layout_width="-2" app:layout_height="-2" app:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

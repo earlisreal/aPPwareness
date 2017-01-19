@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:id="@id/drawer_layout" app:layout_width="-1" app:layout_height="-1">
+    <include app:layout_width="-1" app:layout_height="-1" app:layout_alignParentLeft="true" app:layout_alignParentTop="true" layout="@layout/layout_typhoon" />
+</RelativeLayout>
